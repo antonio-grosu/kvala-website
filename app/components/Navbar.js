@@ -58,7 +58,7 @@ const Navbar = () => {
             className="p-1 w-4/12 bg-black/20"
             onClick={() => setMenu(!menu)}
           ></div>
-          <div className="py-4 px-2 w-8/12 bg-stone-50 flex justify-between flex-col gap-8 ">
+          <div className="py-4 px-4 w-8/12 bg-stone-50 flex justify-between flex-col gap-8 ">
             <div className="flex flex-col gap-8">
               <Image
                 priority
