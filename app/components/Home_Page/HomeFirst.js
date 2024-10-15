@@ -4,14 +4,14 @@ const HomeFirst = () => {
   return (
   <div className="flex flex-row">
     {/* left side */}
-    <div className="flex flex-col bg-white text-black w-1/2 pl-8 pr-20 pt-36 gap-10">
+    <div className="flex flex-col bg-white text-black w-1/2 pl-8 pr-20 pt-36 gap-10 pb-8">
       <h1 className="text-5xl font-bold">Lorem Ipsum</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada mollis justo, ut vulputate tellus sollicitudin vel.
       </p>
       <div className="grid grid-cols-3 justify-items-center w-full">
         <div className="flex justify-center border-r-2 border-b-2 border-slate-300 w-full col-span-2">
-          <button className="rounded-full bg-green-500 h-28 w-28 p-4 mb-6">
+          <button className="rounded-full bg-green-500 h-28 w-28 p-4 mb-6 hover:scale-110 transition duration-300">
             Exploreaza
             <br></br>
             Meniul
@@ -29,7 +29,7 @@ const HomeFirst = () => {
           </div>
         </div>
         <div className="flex justify-center w-full">
-          <button className="rounded-full bg-green-500 bg-opacity-20 border-2 border-green-500 h-28 w-28 p-4 mb-4 shadow-lg mt-6">
+          <button className="rounded-full bg-green-500 bg-opacity-20 border-2 border-green-500 h-28 w-28 p-4 mb-4 shadow-lg mt-6  hover:scale-110 transition duration-300">
             Locatie
           </button>
         </div>
