@@ -60,11 +60,11 @@ const Menu = () => {
         <MeniuType
           type="Tipul 1"
           products={[
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
+            { id: 1, name: "produs 1", text: "text" },
+            { id: 2, name: "produs 1", text: "text" },
+            { id: 3, name: "produs 1", text: "text" },
+            { id: 4, name: "produs 1", text: "text" },
+            { id: 5, name: "produs 1", text: "text" },
           ]}
         />
       </div>
@@ -75,11 +75,11 @@ const Menu = () => {
         <MeniuType
           type="Tipul 2"
           products={[
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
+            { id: 1, name: "produs 1", text: "text" },
+            { id: 2, name: "produs 1", text: "text" },
+            { id: 3, name: "produs 1", text: "text" },
+            { id: 4, name: "produs 1", text: "text" },
+            { id: 5, name: "produs 1", text: "text" },
           ]}
         />
       </div>
@@ -90,11 +90,11 @@ const Menu = () => {
         <MeniuType
           type="Tipul 3"
           products={[
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
+            { id: 1, name: "produs 1", text: "text" },
+            { id: 2, name: "produs 1", text: "text" },
+            { id: 3, name: "produs 1", text: "text" },
+            { id: 4, name: "produs 1", text: "text" },
+            { id: 5, name: "produs 1", text: "text" },
           ]}
         />
       </div>
@@ -106,11 +106,11 @@ const Menu = () => {
         <MeniuType
           type="Tipul 4"
           products={[
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
+            { id: 1, name: "produs 1", text: "text" },
+            { id: 2, name: "produs 1", text: "text" },
+            { id: 3, name: "produs 1", text: "text" },
+            { id: 4, name: "produs 1", text: "text" },
+            { id: 5, name: "produs 1", text: "text" },
           ]}
         />
       </div>
@@ -122,11 +122,11 @@ const Menu = () => {
         <MeniuType
           type="Tipul 5"
           products={[
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
+            { id: 1, name: "produs 1", text: "text" },
+            { id: 2, name: "produs 1", text: "text" },
+            { id: 3, name: "produs 1", text: "text" },
+            { id: 4, name: "produs 1", text: "text" },
+            { id: 5, name: "produs 1", text: "text" },
           ]}
         />
       </div>
@@ -138,11 +138,11 @@ const Menu = () => {
         <MeniuType
           type="Tipul 6"
           products={[
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
+            { id: 1, name: "produs 1", text: "text" },
+            { id: 2, name: "produs 1", text: "text" },
+            { id: 3, name: "produs 1", text: "text" },
+            { id: 4, name: "produs 1", text: "text" },
+            { id: 5, name: "produs 1", text: "text" },
           ]}
         />
       </div>
@@ -154,11 +154,11 @@ const Menu = () => {
         <MeniuType
           type="Tipul 7"
           products={[
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
+            { id: 1, name: "produs 1", text: "text" },
+            { id: 2, name: "produs 1", text: "text" },
+            { id: 3, name: "produs 1", text: "text" },
+            { id: 4, name: "produs 1", text: "text" },
+            { id: 5, name: "produs 1", text: "text" },
           ]}
         />
       </div>
@@ -170,11 +170,11 @@ const Menu = () => {
         <MeniuType
           type="Tipul 8"
           products={[
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
-            { name: "produs 1", text: "text" },
+            { id: 1, name: "produs 1", text: "text" },
+            { id: 2, name: "produs 1", text: "text" },
+            { id: 3, name: "produs 1", text: "text" },
+            { id: 4, name: "produs 1", text: "text" },
+            { id: 5, name: "produs 1", text: "text" },
           ]}
         />
       </div>
