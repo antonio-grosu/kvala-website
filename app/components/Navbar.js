@@ -1,9 +1,16 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
+  useEffect(() => {
+    if (menu) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  }, [menu]);
   return (
     <nav>
       <div className="fixed z-10 top-0 w-full px-8 py-4 shadow-sm bg-stone-50 flex items-center justify-between">
@@ -53,7 +60,7 @@ const Navbar = () => {
         </svg>
       </div>
       {menu && (
-        <div className="absolute z-20 h-screen top-0 right-0 w-full flex">
+        <div className="fixed z-20 h-screen top-0 right-0 w-full flex">
           <div
             className="p-1 w-4/12 bg-black/20"
             onClick={() => setMenu(!menu)}

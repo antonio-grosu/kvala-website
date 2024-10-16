@@ -4,7 +4,7 @@ import HomeThird from "./components/Home_Page/HomeThird";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full">
       <HomeFirst />
       <HomeSecond />
       <HomeThird />
