@@ -14,7 +14,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="fixed z-10 top-0 w-full px-8 py-4 shadow-sm bg-stone-50 flex items-center justify-between">
-        <Image alt="Logo" priority src="/Logo.png" height={50} width={50} />
+        <Link href="/">
+          <Image alt="Logo" priority src="/Logo.png" height={50} width={50} />
+        </Link>
         <div className="md:flex text-sm items-center justify-between gap-4 hidden">
           <Link
             href="/"

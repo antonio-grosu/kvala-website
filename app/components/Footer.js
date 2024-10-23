@@ -57,13 +57,13 @@ const Footer = () => {
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Rețele Sociale</h3>
         <Link
-          href="https://www.facebook.com/p/Wanda-Coffee-and-joy-100083211436695/?_rdr"
+          href="https://www.facebook.com/KvalaRestaurant"
           className="text-sm hover:text-green-500 transition-all "
         >
           Facebook
         </Link>
         <Link
-          href="https://www.instagram.com/wandacoffeeandjoy?igsh=ejkzaGtobG9xdmZv"
+          href="https://www.facebook.com/KvalaRestaurant"
           className="text-sm hover:text-green-500 transition-all "
         >
           Instagram
@@ -73,7 +73,10 @@ const Footer = () => {
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Pentru colaborări</h3>
         <Link href="" className="text-sm hover:text-green-500 transition-all ">
-          contact.kvala@gmail.com
+          Telefon
+        </Link>
+        <Link href="" className="text-sm hover:text-green-500 transition-all ">
+          Email
         </Link>
       </div>
     </footer>

@@ -12,14 +12,29 @@ const GalerieFirst = () => {
           <Link
             href="/galerie/1"
             className="w-7/12 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>{" "}
           <Link
             href="/galerie/2"
             className="w-32 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <Link
             href="/galerie/3"
             className="w-32 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
         </div>
         {/* randul 2 desktop */}
@@ -27,6 +42,11 @@ const GalerieFirst = () => {
           <Link
             href="/galerie/4"
             className="w-full h-44 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
         </div>
         {/* randul 3 desktop */}
@@ -35,22 +55,47 @@ const GalerieFirst = () => {
           <Link
             href="/galerie/5"
             className="w-32 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <Link
             href="/galerie/6"
             className="w-32 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <Link
             href="/galerie/7"
             className="w-32 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <Link
             href="/galerie/8"
             className="w-32 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <Link
             href="/galerie/9"
             className="w-32 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
         </div>
         {/* randul 4 desktop */}
@@ -58,10 +103,20 @@ const GalerieFirst = () => {
           <Link
             href="/galerie/10"
             className="w-6/12 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <Link
             href="/galerie/11"
             className="w-6/12 h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
         </div>
         {/* randurile mobile */}
@@ -69,48 +124,98 @@ const GalerieFirst = () => {
           <Link
             href="/galerie/1"
             className="w-full h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <div className="flex justify-between gap-4">
             <Link
               href="/galerie/2"
               className="w-1/2 h-32 p-1 bg-gray-300 rounded-md"
+              style={{
+                backgroundImage: "url(/first-circle.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             ></Link>
             <Link
               href="/galerie/3"
               className="w-1/2 h-32 p-1 bg-gray-300 rounded-md"
+              style={{
+                backgroundImage: "url(/first-circle.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             ></Link>
           </div>
           <Link
             href="/galerie/4"
             className="w-full h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <div className="flex justify-between gap-4">
             <Link
               href="/galerie/5"
               className="w-1/2 h-32 p-1 bg-gray-300 rounded-md"
+              style={{
+                backgroundImage: "url(/first-circle.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             ></Link>
             <Link
               href="/galerie/6"
               className="w-1/2 h-32 p-1 bg-gray-300 rounded-md"
+              style={{
+                backgroundImage: "url(/first-circle.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             ></Link>
           </div>
           <div className="flex justify-between gap-4">
             <Link
               href="/galerie/7"
               className="w-1/2 h-32 p-1 bg-gray-300 rounded-md"
+              style={{
+                backgroundImage: "url(/first-circle.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             ></Link>
             <Link
               href="/galerie/8"
               className="w-1/2 h-32 p-1 bg-gray-300 rounded-md"
+              style={{
+                backgroundImage: "url(/first-circle.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             ></Link>
           </div>
           <Link
             href="/galerie/10"
             className="w-full h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
           <Link
             href="/galerie/11"
             className="w-full h-32 p-1 bg-gray-300 rounded-md"
+            style={{
+              backgroundImage: "url(/first-circle.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></Link>
         </div>
       </div>

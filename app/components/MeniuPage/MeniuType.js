@@ -6,7 +6,7 @@ const MeniuType = (props) => {
     <div>
       <h1 className="text-black text-2xl font-semibold">{props.type}</h1>
       <div className="mt-8 flex flex-col gap-12">
-        <div className="grid md:grid-cols-3 justify-end grid-cols-1 gap-8">
+        <div className="grid md:grid-cols-2  4xl:grid-cols-3 justify-end grid-cols-1 gap-8">
           {products.map((elem) => (
             <MeniuProduct key={elem.id} name={elem.name} text={elem.text} />
           ))}
