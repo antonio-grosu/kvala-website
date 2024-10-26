@@ -43,13 +43,13 @@ const Footer = () => {
         </Link>
         <Link
           href="/meniu"
-          className="text-sm hover:text-green-500 transition-all "
+          className="text-sm hover:text-blue-700 transition-all "
         >
           Meniu
         </Link>
         <Link
           href="/rezervare"
-          className="text-sm hover:text-green-500 transition-all "
+          className="text-sm hover:text-blue-700 transition-all "
         >
           Rezervare
         </Link>
@@ -58,13 +58,13 @@ const Footer = () => {
         <h3 className="font-semibold">Rețele Sociale</h3>
         <Link
           href="https://www.facebook.com/KvalaRestaurant"
-          className="text-sm hover:text-green-500 transition-all "
+          className="text-sm hover:text-blue-700 transition-all "
         >
           Facebook
         </Link>
         <Link
           href="https://www.facebook.com/KvalaRestaurant"
-          className="text-sm hover:text-green-500 transition-all "
+          className="text-sm hover:text-blue-700 transition-all "
         >
           Instagram
         </Link>
@@ -72,10 +72,10 @@ const Footer = () => {
 
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
         <h3 className="font-semibold">Pentru colaborări</h3>
-        <Link href="" className="text-sm hover:text-green-500 transition-all ">
+        <Link href="" className="text-sm hover:text-blue-700 transition-all ">
           Telefon
         </Link>
-        <Link href="" className="text-sm hover:text-green-500 transition-all ">
+        <Link href="" className="text-sm hover:text-blue-700 transition-all ">
           Email
         </Link>
       </div>

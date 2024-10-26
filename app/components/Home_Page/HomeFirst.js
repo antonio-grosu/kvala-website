@@ -21,7 +21,7 @@ const HomeFirst = () => {
             href="/meniu"
             className="flex justify-center border-r-2 border-b-2 border-slate-300 w-full col-span-2"
           >
-            <button className="rounded-full bg-green-500 h-28 w-28 p-4 mb-6 hover:scale-110 transition duration-300">
+            <button className="rounded-full bg-blue-700 text-white h-28 w-28 p-4 mb-6 hover:scale-110 transition duration-300">
               Exploreaza
               <br></br>
               Meniul
@@ -32,7 +32,7 @@ const HomeFirst = () => {
           </div>
           <div className="grid grid-cols-2 items-center justify-end gap-2 bg-cyan-30 w-full border-r-2 border-slate-300 col-span-2">
             <div
-              className="grid justify-self-start w-32 h-32 bg-green-500 rounded-full border-l-8 border-green-500 mt-6 ml-4"
+              className="grid justify-self-start w-32 h-32 bg-blue-700 rounded-full border-l-8 border-blue-700 mt-6 ml-4"
               style={{
                 backgroundImage: "url(/first-circle.png)",
                 backgroundSize: "cover",
@@ -44,19 +44,23 @@ const HomeFirst = () => {
             </div>
           </div>
           <Link href="/rezervare" className="flex pl-4 justify-center w-full">
-            <button className="rounded-full bg-green-500 bg-opacity-20 border-2 border-green-500 h-28 w-28 p-4 mb-4 shadow-lg mt-6  hover:scale-110 transition duration-300">
+            <button className="rounded-full bg-blue-700 bg-opacity-20 border-2 border-blue-700 h-28 w-28 p-4 mb-4 shadow-lg mt-6  hover:scale-110 transition duration-300">
               Rezervare
             </button>
           </Link>
         </div>
       </div>
       {/* right side */}
-      <Image
-        className="bg-slate-300 hidden md:block md:w-1/2"
+      <div
+        className="hidden md:block md:w-1/2 p-1"
+        style={{
+          backgroundImage: `url(/hero-photo.jpg)`,
+          backgroundSize: "cover",
+          backgroundPosition: "bottom",
+        }}
         src="/hero-photo.jpg"
         width={1000}
         height={1000}
-        priority
       />
     </div>
   );

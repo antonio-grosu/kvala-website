@@ -3,8 +3,16 @@ import MeniuType from "../components/MeniuPage/MeniuType";
 const Menu = () => {
   return (
     <main className="py-12">
-      <div className="py-20 bg-gray-300 flex items-center justify-center">
-        <h1 className="text-2xl font-semibold text-black">Meniu</h1>
+      <div
+        className="w-full h-44 bg-gray-300 flex items-center justify-center
+      "
+        style={{
+          backgroundImage: `url(/bg-all.jpg)`,
+          backgroundSize: "cover",
+          backgroundPosition: "bottom",
+        }}
+      >
+        <h1 className="text-2xl font-semibold text-white">Meniu</h1>
       </div>
       <div className="flex mt-8 md:mt-12   border-b-2 border-slate-300 flex-col md:flex-row items-center justify-center gap-8  w-8/12 pb-4 mx-auto">
         {/* desktop view */}
@@ -48,7 +56,7 @@ const Menu = () => {
       </div>
       <Link
         href="/"
-        className="inline-flex w-full mx-auto justify-center text-green-500 underline underline-offset-3 mt-4"
+        className="inline-flex w-full mx-auto justify-center text-blue-700 underline underline-offset-3 mt-4"
       >
         Descarca .pdf
       </Link>

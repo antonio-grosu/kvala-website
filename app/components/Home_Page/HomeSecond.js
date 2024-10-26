@@ -2,7 +2,7 @@
 
 const HomeSecond = () => {
   return (
-    <div className="flex flex-col px-8 items-center bg-emerald-50 py-12">
+    <div className="flex flex-col px-8 items-center bg-blue-100 py-12">
       {/* Titlu */}
       <h1 className="text-2xl md:text-5xl font-semibold p-8 md:text-center text-left">
         Lorem Ipsum
