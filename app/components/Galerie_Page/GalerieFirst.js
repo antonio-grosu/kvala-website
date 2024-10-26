@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const GalerieFirst = () => {
+  // galerie
   return (
     <div className="pt-12">
       <div
