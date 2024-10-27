@@ -14,7 +14,7 @@ const RezervareFirst = () => {
       />
       <div className="md:w-5/12 w-full">
         <h1 className="text-2xl md:text-4xl font-semibold text-black">
-          Lorem Ipsum
+          Rezervă-ți masa la Kvala
         </h1>
         <Image
           alt="Locatie"
@@ -25,15 +25,26 @@ const RezervareFirst = () => {
           className="block md:hidden rounded-md p-1"
         />
 
-        <p className=" text-black mt-4 mb-8">Lorem Ipsum dolor met</p>
+        <p className=" text-black mt-4 mb-8">
+          {" "}
+          Te așteptăm cu brațele deschise la Kvala! Asigură-ți locul în
+          restaurantul nostru confortabil și plin de atmosferă, rezervând o masă
+          în avans. Indiferent dacă sărbătorești o ocazie specială sau pur și
+          simplu vrei să te bucuri de o cină relaxantă cu prietenii, echipa
+          noastră este aici pentru a te ajuta. Completează formularul de
+          rezervare și vino să te răsfeți cu preparatele noastre delicioase!
+        </p>
         <Link
           href=""
           className="px-4 py-2 flex md:inline-block justify-center  bg-blue-700 text-white rounded-md hover:rounded-2xl transition-all"
         >
-          Rezerva o masa
+          Rezervă o masă
         </Link>
         <div className="md:w-7/12 border-t-2 border-black/20 mt-12 pt-4">
-          <p className=" text-black/50 mt-4 mb-8">Adresa Restaurantului</p>
+          <p className=" text-black/50  mb-8">
+            {" "}
+            Strada Doctor Louis Pasteur 63, București 050534
+          </p>
         </div>
       </div>
     </div>

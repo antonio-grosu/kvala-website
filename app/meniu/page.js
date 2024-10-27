@@ -14,7 +14,7 @@ const Menu = () => {
       >
         <h1 className="text-2xl font-semibold text-white">Meniu</h1>
       </div>
-      <div className="flex mt-8 md:mt-12   border-b-2 border-slate-300 flex-col md:flex-row items-center justify-center gap-8  w-8/12 pb-4 mx-auto">
+      <div className="flex mt-8 md:mt-12   border-b-2 border-slate-300 flex-col md:flex-row items-center justify-center gap-8  w-full pb-4 mx-auto">
         {/* desktop view */}
         <Link href="#1" className="md:block hidden">
           Aperitive
@@ -70,74 +70,73 @@ const Menu = () => {
           products={[
             {
               id: 1,
-              name: "Humus 150gr. 72kCal",
-              text: "näut, lamãie, utel de mástine, usturol, sâmburi pin, pità",
+              name: "Humus 150g 72kCal",
+              text: "Năut, lămâie, ulei de măsline, usturoi, sâmburi de pin, pită",
             },
             {
               id: 2,
-              name: "Zacusca pescäreascà 150gr. 165kCal",
-              text: "vinele, ardel, cedpa, cuperci, nerie merinet",
+              name: "Zacuscă pescărească 150g 165kCal",
+              text: "Vinete, ardei, ceapă, ciuperci, hering marinat",
             },
             {
               id: 3,
-              name: "Mix măsline 150gr. 120kCal",
-              text: "mastine mix rosi uscale, patruniel usturol, ulel de mastne condimente, pita",
+              name: "Mix măsline 150g 120kCal",
+              text: "Măsline mix, roșii uscate, pătrunjel, usturoi, ulei de măsline, condimente, pită",
             },
             {
               id: 4,
-              name: "Tirokafteri 150gr. 280kCal",
-              text: "creme user dicante-lute de Dranzetun drecest Dila",
+              name: "Tirokafteri 150g 280kCal",
+              text: "Cremă de brânză picantă, de origine grecească",
             },
             {
               id: 5,
-              name: "Icre Kvala 150gr. 265kCal",
-              text: "reteta casei, ceapa, condimente, pita",
+              name: "Icre Kavala 150g 265kCal",
+              text: "Rețeta casei, ceapă, condimente, pită",
             },
             {
               id: 6,
-              name: "Melitzana 150gr. 60kCal",
-              text: "reteta casei, ceapa, condimente, pita",
+              name: "Melitzana 150g 60kCal",
+              text: "Rețeta casei, ceapă, condimente, pită",
             },
-
             {
               id: 7,
-              name: "Tzatziki 150gr. gokCal",
-              text: "cremá de laurt cu castraveti si usturol, pitá",
+              name: "Tzatziki 150g 60kCal",
+              text: "Cremă de iaurt cu castraveți și usturoi, pită",
             },
             {
               id: 8,
-              name: "Halloumi grill 200gr. 370kCal",
-              text: "brânza haltoumi la plita, cu rosil si pitá",
+              name: "Halloumi grill 200g 370kCal",
+              text: "Brânză halloumi la grătar, cu roșii și pită",
             },
             {
               id: 9,
-              name: "Feta saganaki 200gr. 375kCal",
-              text: "brânzà feta cu legume, in folie, la grátar",
+              name: "Feta saganaki 200g 375kCal",
+              text: "Brânză feta cu legume, în folie, la grătar",
             },
             {
               id: 10,
-              name: "Bouiourdi 400gr. 410kCal",
-              text: "mix de brânzeturi grecestl la cuptor, rosie, ardel, ceapá, utel mastine,pita",
+              name: "Bouiourdi 400g 410kCal",
+              text: "Mix de brânzeturi grecești la cuptor, roșii, ardei, ceapă, ulei de măsline, pită",
             },
             {
               id: 11,
-              name: "Särmalute grecesti 200gr. 180kCal",
-              text: "foi de vita, orez, menta, tzatzikl",
+              name: "Sărmăluțe grecești 200g 180kCal",
+              text: "Foi de viță, orez, mentă, tzatziki",
             },
             {
               id: 12,
-              name: "Dovlecel pane 150gr. 164kCal",
-              text: "serviti cu sos tzatziki",
+              name: "Dovlecel pane 150g 164kCal",
+              text: "Servit cu sos tzatziki",
             },
             {
               id: 13,
-              name: "Ardei cherry feta 100gr, 155kCal",
-              text: "ardel cherry iute, umplut cu feta, ulei de másline, condimente,pita",
+              name: "Ardei cherry cu feta 100g 155kCal",
+              text: "Ardei cherry iuți, umpluți cu feta, ulei de măsline, condimente, pită",
             },
             {
               id: 14,
-              name: "Ardel capia la cuptor 250gr, 210kCal",
-              text: "ardel capia, umplut cu feta, la cuptor, utel mäsline, otet,condimente,pita",
+              name: "Ardei capia la cuptor 250g 210kCal",
+              text: "Ardei capia, umplut cu feta, la cuptor, ulei de măsline, oțet, condimente, pită",
             },
           ]}
         />
@@ -149,9 +148,9 @@ const Menu = () => {
         <MeniuType
           type="Garnituri"
           products={[
-            { id: 1, name: "Cartofi Prajiti", text: "150gr. 200kCal" },
-            { id: 2, name: "Orez", text: "200gr: 130kCal" },
-            { id: 3, name: "Pita", text: "70gr" },
+            { id: 1, name: "Cartofi Prajiti 150gr. 200kCal", text: "" },
+            { id: 2, name: "Orez 200g 130kCal", text: "" },
+            { id: 3, name: "Pita 70g ", text: "" },
           ]}
         />
       </div>
@@ -164,68 +163,68 @@ const Menu = () => {
           products={[
             {
               id: 1,
-              name: "Platou Kvala 2/4 pers 840gr. 845kCal / 1700gr. 1710kCal",
-              text: " crevel pane, calamar pane, scolci pane, caracatita la gratar. sos Kvala, mujdei, cartofi prajiti, rosii cherry",
+              name: "Platou Kavala 2/4 pers 840g 845kCal / 1700g 1710kCal",
+              text: "Creveți pane, calamar pane, scoici pane, caracatiță la grătar, sos Kavala, mujdei, cartofi prăjiți, roșii cherry",
             },
             {
               id: 2,
-              name: "Kalamari 400gr. 525kCal",
-              text: "calamar pane, cartofi prájiti, sos Kvala (E415. E330, E260)",
+              name: "Kalamari 400g 525kCal",
+              text: "Calamar pane, cartofi prăjiți, sos Kavala (E415, E330, E260)",
             },
             {
               id: 3,
-              name: "Kalamari gemisto 400gr. 450kCal",
-              text: "calamar la grátar, umplut cu feta si legume",
+              name: "Kalamari gemisto 400g 450kCal",
+              text: "Calamar la grătar, umplut cu feta și legume",
             },
             {
               id: 4,
-              name: "Creveti saganaki 350gr. 260kCa",
-              text: "creveti, sos de rosii, legume, feta, pita",
+              name: "Creveți saganaki 350g 260kCal",
+              text: "Creveți, sos de roșii, legume, feta, pită",
             },
             {
               id: 5,
-              name: "Paste cu creveti 300gr, 160kCal",
-              text: "creveti, paste, rosii cherry, ardei gras, unt, vin, condimente",
+              name: "Paste cu creveți 300g 160kCal",
+              text: "Creveți, paste, roșii cherry, ardei gras, unt, vin, condimente",
             },
             {
               id: 6,
-              name: "Peste Kvala -600gr, -400kCal",
-              text: "peste proaspát la grátar, sos de lámáie",
+              name: "Pește Kavala 600g 400kCal",
+              text: "Pește proaspăt la grătar, sos de lămâie",
             },
             {
               id: 7,
-              name: "Caracatitã 150gr, 120kCal",
-              text: "caracatiá reteta casei, la grátar, sos lámáie",
+              name: "Caracatiță 150g 120kCal",
+              text: "Caracatiță la grătar, rețeta casei, sos de lămâie",
             },
             {
               id: 8,
-              name: "Tigaie de caracatita 300gr, 135kCal",
-              text: "caracatitd, unt vin. usturol rosi cherry pitd",
+              name: "Tigaie de caracatiță 300g 135kCal",
+              text: "Caracatiță, unt, vin, usturoi, roșii cherry, pită",
             },
             {
               id: 9,
-              name: "Frigärui de creveti 300gr. 125kCal",
-              text: "creveti, rucola, rosii cherry, dressing de lámáie, pitó",
+              name: "Frigărui de creveți 300g 125kCal",
+              text: "Creveți, rucola, roșii cherry, dressing de lămâie, pită",
             },
             {
               id: 10,
-              name: "Tigale de creveti 400gr, 170kCal",
-              text: "creveti, unt, vin, usturol, rosil cherry, pitá",
+              name: "Tigaie de creveți 400g 170kCal",
+              text: "Creveți, unt, vin, usturoi, roșii cherry, pită",
             },
             {
               id: 11,
-              name: "Tigaie de scoici 400gr. 165kCal",
-              text: "carne midil, unt, vin, usturol, rosi cherry, pità",
+              name: "Tigaie de scoici 400g 165kCal",
+              text: "Carne de midii, unt, vin, usturoi, roșii cherry, pită",
             },
             {
               id: 12,
-              name: "Scoici saganaki 350gr, 250kCal",
-              text: "carne midil, sos de rosil, legume, feta, pitá",
+              name: "Scoici saganaki 350g 250kCal",
+              text: "Carne de midii, sos de roșii, legume, feta, pită",
             },
             {
               id: 13,
-              name: "Creveti pane 350gr. 350kCal",
-              text: "creveti pane, cartofi prájiti, sos Kvala (E415, E330, E260)",
+              name: "Creveți pane 350g 350kCal",
+              text: "Creveți pane, cartofi prăjiți, sos Kavala (E415, E330, E260)",
             },
           ]}
         />
@@ -238,18 +237,18 @@ const Menu = () => {
         <MeniuType
           type="Tigaie Greceasca"
           products={[
-            { id: 1, name: "Pui 400gr. 510kC", text: "" },
-            { id: 2, name: "Porc 400gr. 480kC", text: "text" },
-            { id: 3, name: "Vita 400g.450kC", text: "text" },
+            { id: 1, name: "Pui 400g 510kCal", text: "" },
+            { id: 2, name: "Porc 400g 480kCal", text: "Carne de porc" },
+            { id: 3, name: "Vită 400g 450kCal", text: "Carne de vită" },
             {
               id: 4,
               name: "Gyros Pui",
-              text: "carne de pui, tzatziki, cartof projiti,pita",
+              text: "Carne de pui, tzatziki, cartofi prăjiți, pită",
             },
             {
               id: 5,
               name: "Gyros Porc",
-              text: "carne de porc, tzatziki, cartof projiti pita,",
+              text: "Carne de porc, tzatziki, cartofi prăjiți, pită",
             },
           ]}
         />
@@ -264,38 +263,38 @@ const Menu = () => {
           products={[
             {
               id: 1,
-              name: "Kleftico 400gr. 345kCal",
-              text: "berbecut gátit incet la cuptor, cartof prájiti, pita",
+              name: "Kleftico 400g 345kCal",
+              text: "Berbecuț gătit încet la cuptor, cartofi prăjiți, pită",
             },
             {
               id: 2,
-              name: "Loukanika 400gr, 410kCal",
-              text: "cárnatii casei de porc la grátar, tzatziki, cartofi prajiti, pita",
+              name: "Loukanika 400g 410kCal",
+              text: "Cârnați de casă din porc la grătar, tzatziki, cartofi prăjiți, pită",
             },
             {
               id: 3,
-              name: "Crispy Koto 350gr. 510kCal",
-              text: "fâsii de pui crocante in panko, sos Kvala (E415, E330, E260),",
+              name: "Crispy Koto 350g 510kCal",
+              text: "Fâșii de pui crocante în panko, sos Kavala (E415, E330, E260)",
             },
             {
               id: 4,
-              name: "Fileto 200gr. 240kCal",
-              text: "muschi de vita la gratar, rucola",
+              name: "Fileto 200g 240kCal",
+              text: "Mușchi de vită la grătar, rucola",
             },
             {
               id: 5,
-              name: "Schnitzel de porc 450gr. 510kCal",
-              text: "muschiulet de porc. panko, ou, cartofi prajiti, tzatziki",
+              name: "Șnițel de porc 450g 510kCal",
+              text: "Mușchiuleț de porc, panko, ou, cartofi prăjiți, tzatziki",
             },
             {
               id: 6,
-              name: "Pastitio 420gr. 265kCal",
-              text: "paste penne, feta, cascaval, carne vita, besamel, condimente",
+              name: "Pastitio 420g 265kCal",
+              text: "Paste penne, feta, cașcaval, carne de vită, beșamel, condimente",
             },
             {
               id: 7,
-              name: "Musaca 420gr. 265kCal",
-              text: "cartofi, vinete, feta, cascaval, carne vitá, besamel, condimente",
+              name: "Musaca 420g 265kCal",
+              text: "Cartofi, vinete, feta, cașcaval, carne de vită, beșamel, condimente",
             },
           ]}
         />
@@ -310,23 +309,23 @@ const Menu = () => {
           products={[
             {
               id: 1,
-              name: "Horiatiki 300gr, 170kCal",
-              text: "salatá greceasca traditionalá, cu rosil, castravete, ardei, ceapá,masline , feta",
+              name: "Horiatiki 300g 170kCal",
+              text: "Salată grecească tradițională, cu roșii, castravete, ardei, ceapă, măsline, feta",
             },
             {
               id: 2,
-              name: "Agourotomata 300gr, 80kCal",
-              text: "Calala creceocca cu rosi, castravele ceand, ardel macline",
+              name: "Agourotomata 300g 80kCal",
+              text: "Salată grecească cu roșii, castraveți, ceapă, ardei, măsline",
             },
             {
               id: 3,
-              name: "Koto 400gr, 210kCal",
-              text: "Cone dreceasca cu rost, costrovere, ceand, ardel. masline, piept de pui,pita",
+              name: "Koto 400g 210kCal",
+              text: "Salată grecească cu roșii, castraveți, ceapă, ardei, măsline, piept de pui, pită",
             },
             {
               id: 4,
-              name: "Salatä verde 190gr, 45kCal",
-              text: "mix salatá verde, rosil cherry, mästine, dressing de lámale",
+              name: "Salată verde 190g 45kCal",
+              text: "Mix salată verde, roșii cherry, măsline, dressing de lămâie",
             },
           ]}
         />
@@ -341,28 +340,28 @@ const Menu = () => {
           products={[
             {
               id: 1,
-              name: "Kataif 200gr, 410kCal",
-              text: "aluat in fire insiropat, nuca, friscá vegetalá cu indulcitor",
+              name: "Kataif 200g 410kCal",
+              text: "Aluat în fire însiropat, nucă, frișcă vegetală cu îndulcitor",
             },
             {
               id: 2,
-              name: "Galaktobureko 200gr. 340kCal",
-              text: "foitaj, cremá lapte, gris, vanilie, friscá vegetalá cu indulcitor",
+              name: "Galaktobureko 200g 340kCal",
+              text: "Foietaj, cremă de lapte, griș, vanilie, frișcă vegetală cu îndulcitor",
             },
             {
               id: 3,
-              name: "Profiterol 100gr. 348kCal",
-              text: "2 choux cu cremá de vanilie si glazurá de ciocolata",
+              name: "Profiterol 100g 348kCal",
+              text: "2 choux cu cremă de vanilie și glazură de ciocolată",
             },
             {
               id: 4,
-              name: "Tort de fistic 100gr, 365kCal",
-              text: "cu sirop cu aromá de atune, friscá vegetalá cu indulcitor",
+              name: "Tort de fistic 100g 365kCal",
+              text: "Cu sirop cu aromă de alune, frișcă vegetală cu îndulcitor",
             },
             {
               id: 5,
-              name: "Portokalopita 200gr. 340kCal",
-              text: "prajiturá cu aluat oud, laurt, zahár, sirop de portocale",
+              name: "Portokalopita 200g 340kCal",
+              text: "Prăjitură cu aluat, ouă, iaurt, zahăr, sirop de portocale",
             },
           ]}
         />
@@ -376,30 +375,26 @@ const Menu = () => {
           type="Bauturi"
           products={[
             { id: 1, name: "Pepsi Family 250ml" },
-            { id: 2, name: "Apă minerală / plata 330ml", text: "" },
-            { id: 3, name: "Apá minerala / platá 750ml", text: "" },
-            { id: 4, name: "Fresh portocale 250ml", text: "" },
-            { id: 5, name: "Limonad cu miere si mentà 400ml", text: "" },
+            { id: 2, name: "Apă minerală / plată 330ml", text: "" },
+            { id: 3, name: "Apă minerală / plată 750ml", text: "" },
+            { id: 4, name: "Fresh de portocale 250ml", text: "" },
+            { id: 5, name: "Limonadă cu miere și mentă 400ml", text: "" },
             {
               id: 6,
-              name: "Limonada cu piure natural de fructe",
-              text: "amoe, dod. trucie, oure mar verde / manco / zmeura",
+              name: "Limonadă cu piure natural de fructe",
+              text: "Alege din: căpșune, fructul pasiunii, piure de măr verde / mango / zmeură",
             },
           ]}
         />
         <MeniuType
           type="Bere"
           products={[
-            { id: 1, name: "Mythos / Fix draught 400ml" },
-            { id: 2, name: "AMythos 330ml", text: "" },
+            { id: 1, name: "Mythos / Fix Draught 400ml" },
+            { id: 2, name: "Mythos 330ml", text: "" },
             { id: 3, name: "Heineken NA 330ml", text: "" },
-            { id: 4, name: "Fix Greek blonde 330ml", text: "" },
-            { id: 5, name: "Guiness 500ml", text: "" },
-            {
-              id: 6,
-              name: "Corona 330mL",
-              text: "",
-            },
+            { id: 4, name: "Fix Greek Blonde 330ml", text: "" },
+            { id: 5, name: "Guinness 500ml", text: "" },
+            { id: 6, name: "Corona 330ml", text: "" },
           ]}
         />
         <MeniuType
@@ -408,52 +403,16 @@ const Menu = () => {
             { id: 2, name: "J&B Rare", text: "" },
             { id: 3, name: "Jameson", text: "" },
             { id: 4, name: "Jack Daniel's", text: "" },
-            { id: 5, name: "Glenfiddich 12yrs", text: "" },
-            {
-              id: 6,
-              name: "Singleton 12yrs",
-              text: "",
-            },
-            {
-              id: 7,
-              name: "Cardhu 12yrs",
-              text: "",
-            },
-            {
-              id: 8,
-              name: "Vodka Grey Goose",
-              text: "",
-            },
-            {
-              id: 9,
-              name: "Cognac Curvoisier VS",
-              text: "",
-            },
-            {
-              id: 10,
-              name: "Brandy Metaxa 5",
-              text: "",
-            },
-            {
-              id: 11,
-              name: "Bacardi White",
-              text: "",
-            },
-            {
-              id: 12,
-              name: "Rom Bumbu",
-              text: "",
-            },
-            {
-              id: 13,
-              name: "Jagermeister/Fernet",
-              text: "",
-            },
-            {
-              id: 14,
-              name: "Limoncello",
-              text: "",
-            },
+            { id: 5, name: "Glenfiddich 12 ani", text: "" },
+            { id: 6, name: "Singleton 12 ani", text: "" },
+            { id: 7, name: "Cardhu 12 ani", text: "" },
+            { id: 8, name: "Vodka Grey Goose", text: "" },
+            { id: 9, name: "Cognac Courvoisier VS", text: "" },
+            { id: 10, name: "Brandy Metaxa 5", text: "" },
+            { id: 11, name: "Bacardi White", text: "" },
+            { id: 12, name: "Rom Bumbu", text: "" },
+            { id: 13, name: "Jägermeister/Fernet", text: "" },
+            { id: 14, name: "Limoncello", text: "" },
           ]}
         />
         <MeniuType
@@ -461,49 +420,17 @@ const Menu = () => {
           products={[
             { id: 1, name: "Retsina Kechribari 500ml", text: "" },
             { id: 2, name: "Rasova La Plage 750ml", text: "" },
-            { id: 3, name: "7Arts Sauvignon Blanc 750 ml", text: "" },
-            { id: 4, name: "7Arts Fantezie 750 ml", text: "" },
+            { id: 3, name: "7Arts Sauvignon Blanc 750ml", text: "" },
+            { id: 4, name: "7Arts Fantezie 750ml", text: "" },
             { id: 5, name: "7Arts Preludiu 750ml", text: "" },
-            {
-              id: 6,
-              name: "Petro Vaselo - Ovas 750ml",
-              text: "",
-            },
-            {
-              id: 7,
-              name: "El Cortez XO 750 ml",
-              text: "",
-            },
-            {
-              id: 8,
-              name: "Davino Faurar 750ml",
-              text: "",
-            },
-            {
-              id: 9,
-              name: "Davino lacob 750ml",
-              text: "",
-            },
-            {
-              id: 10,
-              name: "Caii de la Letea (I1) AL 750ml",
-              text: "",
-            },
-            {
-              id: 11,
-              name: "Recas Muse Rose 750ml",
-              text: "",
-            },
-            {
-              id: 12,
-              name: "Budureasca 150ml | 450ml",
-              text: "",
-            },
-            {
-              id: 13,
-              name: "Prosecco 100ml | 750ml",
-              text: "",
-            },
+            { id: 6, name: "Petro Vaselo - Ovas 750ml", text: "" },
+            { id: 7, name: "El Cortez XO 750ml", text: "" },
+            { id: 8, name: "Davino Faurar 750ml", text: "" },
+            { id: 9, name: "Davino Iacob 750ml", text: "" },
+            { id: 10, name: "Caii de la Letea (I1) AL 750ml", text: "" },
+            { id: 11, name: "Recas Muse Rose 750ml", text: "" },
+            { id: 12, name: "Budureasca 150ml | 450ml", text: "" },
+            { id: 13, name: "Prosecco 100ml | 750ml", text: "" },
           ]}
         />
         <MeniuType
@@ -512,38 +439,38 @@ const Menu = () => {
             {
               id: 1,
               name: "Martini Rosato",
-              text: "martini rosso, apá tonica, citrice, prosecco",
+              text: "Martini rosso, apă tonică, citrice, prosecco",
             },
             {
               id: 2,
               name: "Gin Tonic",
-              text: "gin Bombay, apá tonicá, lime, piper roz",
+              text: "Gin Bombay, apă tonică, lime, piper roz",
             },
             {
               id: 3,
               name: "Campari Orange",
-              text: "campari, suc de portocale",
+              text: "Campari, suc de portocale",
             },
-            { id: 4, name: "Campari Tonic", text: "campari, apa tonica" },
+            { id: 4, name: "Campari Tonic", text: "Campari, apă tonică" },
             {
               id: 5,
               name: "Cuba Libre",
-              text: "rom, cola, lime",
+              text: "Rom, cola, lime",
             },
             {
               id: 6,
               name: "Mojito",
-              text: "rom, zahar brun, lime. menta, apa minerala",
+              text: "Rom, zahăr brun, lime, mentă, apă minerală",
             },
             {
               id: 7,
               name: "Hugo",
-              text: "prosecco, sirop soc, apa minerala",
+              text: "Prosecco, sirop de soc, apă minerală",
             },
             {
               id: 8,
               name: "Metaxa SUNTONIC",
-              text: "metaxa, portocala, apã tonica",
+              text: "Metaxa, portocală, apă tonică",
             },
           ]}
         />
@@ -568,12 +495,12 @@ const Menu = () => {
             { id: 4, name: "Caffe Frappe / Irish Coffee", text: "" },
             {
               id: 5,
-              name: "Ciocolata calda cu lapte",
+              name: "Ciocolată caldă cu lapte",
               text: "",
             },
             {
               id: 6,
-              name: "Ceai Cald intrebati ospatarub",
+              name: "Ceai Cald, întrebați ospătarul",
               text: "",
             },
           ]}

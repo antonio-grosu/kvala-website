@@ -11,7 +11,10 @@ const Footer = () => {
           height={80}
           className="w-3/12"
         />
-        <p className="text-sm mt-4 text-black/50">Adresa</p>
+        <p className="text-sm mt-4 text-black/50">
+          {" "}
+          Strada Doctor Louis Pasteur 63, București 050534
+        </p>
         {/* blooming solutions mark */}
         <Link
           href="https://blooming-solutions.ro"

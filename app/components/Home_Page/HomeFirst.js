@@ -9,11 +9,13 @@ const HomeFirst = () => {
       {/* left side */}
       <div className="flex flex-col  bg-white text-black md:w-1/2 w-full md:pl-8 md:pr-20 md:pt-36 gap-10 md:pb-8 px-8 pt-36 pb-24">
         <h1 className="text-2xl md:text-5xl text-left font-semibold">
-          Lorem Ipsum
+          Descoperă gusturile grecești la Kvala{" "}
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          malesuada mollis justo, ut vulputate tellus sollicitudin vel.
+          La Kvala, te invităm să te bucuri de o experiență culinară autentică,
+          inspirată de tradițiile grecești. Fiecare preparat este pregătit cu
+          cele mai proaspete ingrediente și o pasiune profundă pentru
+          gastronomie.
         </p>
 
         <div className="grid grid-cols-3 justify-items-center w-full">
@@ -22,7 +24,7 @@ const HomeFirst = () => {
             className="flex justify-center border-r-2 border-b-2 border-slate-300 w-full col-span-2"
           >
             <button className="rounded-full bg-blue-700 text-white h-28 w-28 p-4 mb-6 hover:scale-110 transition duration-300">
-              Exploreaza
+              Explorează
               <br></br>
               Meniul
             </button>
@@ -39,8 +41,9 @@ const HomeFirst = () => {
                 backgroundPosition: "center",
               }}
             ></div>
-            <div className="md:block hidden text-xs -ml-8 mr-4">
-              Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+            <div className="lg:block hidden text-xs -ml-8 mr-4">
+              De la meze savuroase la plăceri dulci, fiecare masă la Kvala
+              promite să fie o călătorie delicioasă în inima Greciei.
             </div>
           </div>
           <Link href="/rezervare" className="flex pl-4 justify-center w-full">

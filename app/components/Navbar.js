@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/rezervare"
-            className=" px-4 py-1 bg-blue-700/10 border-2 border-blue-700 rounded-md hover:bg-blue-700 hover:rounded-2xl transition-all"
+            className=" px-4 py-1 bg-blue-700/10 border-2 border-blue-700 rounded-md hover:bg-blue-700 hover:rounded-2xl hover:text-white transition-all"
           >
             Rezervare
           </Link>
