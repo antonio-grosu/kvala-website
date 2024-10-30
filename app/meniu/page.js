@@ -14,7 +14,7 @@ const Menu = () => {
       >
         <h1 className="text-2xl font-semibold text-white">Meniu</h1>
       </div>
-      <div className="flex mt-8 md:mt-12   border-b-2 border-slate-300 flex-col md:flex-row items-center justify-center gap-8  w-full pb-4 mx-auto">
+      <div className="flex mt-8 md:mt-12 slide-in  border-b-2 border-slate-300 flex-col md:flex-row items-center justify-center gap-8  w-full pb-4 mx-auto">
         {/* desktop view */}
         <Link href="#1" className="md:block hidden">
           Aperitive
@@ -41,7 +41,7 @@ const Menu = () => {
           Bauturi
         </Link>
         {/* mobile view */}
-        <div className="md:hidden flex items-center justify-start gap-4">
+        <div className="md:hidden flex items-center slide-in justify-start gap-4">
           <Link href="#1">Aperitive</Link>
           <Link href="#2">Garnituri</Link>
           <Link href="#3">Din Mare</Link>
@@ -56,7 +56,7 @@ const Menu = () => {
       </div>
       <Link
         href="/"
-        className="inline-flex w-full mx-auto justify-center text-blue-700 underline underline-offset-3 mt-4"
+        className="inline-flex w-full mx-auto justify-center slide-in text-blue-700 underline underline-offset-3 mt-4"
       >
         Descarca .pdf
       </Link>

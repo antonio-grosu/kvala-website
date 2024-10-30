@@ -4,7 +4,7 @@ const MeniuType = (props) => {
   const products = props.products;
   return (
     <div>
-      <h1 className="text-black text-4xl  underline underline-offset-2 font-semibold">
+      <h1 className="text-black text-4xl slide-in  underline underline-offset-2 font-semibold">
         {props.type}
       </h1>
       <div className="mt-8 flex flex-col gap-12">
