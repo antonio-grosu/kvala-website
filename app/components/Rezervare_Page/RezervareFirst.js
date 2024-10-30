@@ -35,7 +35,7 @@ const RezervareFirst = () => {
           rezervare și vino să te răsfeți cu preparatele noastre delicioase!
         </p>
         <Link
-          href=""
+          href="tel:0726731663"
           className="px-4 py-2 flex md:inline-block justify-center slide-right bg-blue-700 text-white rounded-md hover:rounded-2xl transition-all"
         >
           Rezervă o masă

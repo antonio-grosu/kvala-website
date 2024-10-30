@@ -5,17 +5,17 @@ const HomeSecond = () => {
     <div className="flex flex-col px-8 items-center bg-blue-100 py-12">
       {/* Titlu */}
       <h1 className="text-2xl md:text-5xl font-semibold p-8 md:text-center text-left">
-        Lorem Ipsum
+        Grecia, tradiție, ospitalitate, prospețime...
       </h1>
 
       {/* Infos */}
       <div className="flex  md:flex-row md:justify-between flex-col justify-start gap-8">
-        <div className="md:p-12 px-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-          vehicula sed mi nec placerat. Maecenas condimentum diam urna, eu
-          dictum ligula pharetra in. Quisque id ipsum a nulla lobortis posuere
-          non ut ante. Proin condimentum lorem id facilisis sodales. Curabitur
-          nec dignissim turpis. Curabitur eget arcu et velit fermentum rhoncus.
+        <div className="md:p-12 px-8 w-1/2">
+          Am ales drumul mai greu, fără compromisuri inutile, cu pasiune și cu
+          suflet, în încercarea noastră de a pune în farfurie o fărâmă din ceea
+          ce reprezintă Grecia pentru noi toți... puțină filosofie, câteva
+          măsline, un strop de ulei virgin, un praf de oregano, sare din mare și
+          căldură cât încape.
         </div>
         {/* Timeline mobile*/}
         <div className=" md:hidden z-0  flex flex-row w-full items-center">
@@ -38,12 +38,13 @@ const HomeSecond = () => {
             </div>
           </div>
         </div>
-        <div className="md:p-12 px-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-          vehicula sed mi nec placerat. Maecenas condimentum diam urna, eu
-          dictum ligula pharetra in. Quisque id ipsum a nulla lobortis posuere
-          non ut ante. Proin condimentum lorem id facilisis sodales. Curabitur
-          nec dignissim turpis. Curabitur eget arcu et velit fermentum rhoncus.
+        <div className="md:p-12 px-8 w-1/2">
+          Sperăm ca efortul nostru să aducă un dram de satisfacție și o cât de
+          mică senzație că vă aflați pe plaiuri elene. <br />
+          <p className="font-bold mt-4">
+            Cu drag, <br />
+            Chef Florian Stroe
+          </p>
         </div>
       </div>
 

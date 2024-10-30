@@ -66,7 +66,7 @@ const Footer = () => {
           Facebook
         </Link>
         <Link
-          href="https://www.facebook.com/KvalaRestaurant"
+          href="https://www.instagram.com/kvala.ro/"
           className="text-sm hover:text-blue-700 transition-all "
         >
           Instagram
@@ -74,12 +74,12 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col md:mt-0 mt-8 md:items-center gap-2">
-        <h3 className="font-semibold">Pentru colaborări</h3>
-        <Link href="" className="text-sm hover:text-blue-700 transition-all ">
+        <h3 className="font-semibold">Pentru Rezervări</h3>
+        <Link
+          href="tel:0726731663"
+          className="text-sm hover:text-blue-700 transition-all "
+        >
           Telefon
-        </Link>
-        <Link href="" className="text-sm hover:text-blue-700 transition-all ">
-          Email
         </Link>
       </div>
     </footer>

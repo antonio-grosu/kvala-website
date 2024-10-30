@@ -54,12 +54,6 @@ const Menu = () => {
           <Link href="#8">Bauturi</Link>
         </div>
       </div>
-      <Link
-        href="/"
-        className="inline-flex w-full mx-auto justify-center slide-in text-blue-700 underline underline-offset-3 mt-4"
-      >
-        Descarca .pdf
-      </Link>
 
       <div
         id="1"

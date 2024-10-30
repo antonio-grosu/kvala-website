@@ -43,7 +43,7 @@ const HomeFirst = () => {
                 backgroundPosition: "center",
               }}
             ></div>
-            <div className="lg:block hidden text-xs  slide-in -ml-8 mr-4">
+            <div className="xl:block hidden text-xs  slide-in -ml-8 mr-4">
               De la meze savuroase la plăceri dulci, fiecare masă la Kvala
               promite să fie o călătorie delicioasă în inima Greciei.
             </div>

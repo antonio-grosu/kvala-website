@@ -117,14 +117,14 @@ const Navbar = () => {
                   Sociale
                 </h3>
                 <Link
-                  href="/"
+                  href="https://www.instagram.com/kvala.ro/"
                   className="block mt-4"
                   onClick={() => setMenu(!menu)}
                 >
                   Instagram
                 </Link>
                 <Link
-                  href="/meniu"
+                  href="https://web.facebook.com/KvalaRestaurant/?_rdc=1&_rdr"
                   className="block mt-4"
                   onClick={() => setMenu(!menu)}
                 >
@@ -134,21 +134,14 @@ const Navbar = () => {
               {/* div contactare */}
               <div>
                 <h3 className="uppercase text-xs text-black/50 tracking-widest">
-                  Contactare
+                  Rezervări
                 </h3>
                 <Link
-                  href="/"
+                  href="tel:0726731663"
                   className="block mt-4"
                   onClick={() => setMenu(!menu)}
                 >
                   Telefon
-                </Link>
-                <Link
-                  href="/meniu"
-                  className="block mt-4"
-                  onClick={() => setMenu(!menu)}
-                >
-                  Email
                 </Link>
               </div>
             </div>
