@@ -10,7 +10,7 @@ const HomeSecond = () => {
 
       {/* Infos */}
       <div className="flex  md:flex-row md:justify-between flex-col justify-start gap-8">
-        <div className="md:p-12 px-8 w-1/2">
+        <div className="md:p-12 px-8 md:w-1/2">
           Am ales drumul mai greu, fără compromisuri inutile, cu pasiune și cu
           suflet, în încercarea noastră de a pune în farfurie o fărâmă din ceea
           ce reprezintă Grecia pentru noi toți... puțină filosofie, câteva
@@ -38,7 +38,7 @@ const HomeSecond = () => {
             </div>
           </div>
         </div>
-        <div className="md:p-12 px-8 w-1/2">
+        <div className="md:p-12 px-8 md:w-1/2">
           Sperăm ca efortul nostru să aducă un dram de satisfacție și o cât de
           mică senzație că vă aflați pe plaiuri elene. <br />
           <p className="font-bold mt-4">
