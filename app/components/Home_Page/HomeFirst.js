@@ -44,7 +44,7 @@ const HomeFirst = () => {
               }}
             ></div>
             <div className="xl:block hidden text-xs  slide-in -ml-8 mr-4">
-              De la meze savuroase la plăceri dulci, fiecare masă la Kvala
+              De la mese savuroase la plăceri dulci, fiecare masă la Kvala
               promite să fie o călătorie delicioasă în inima Greciei.
             </div>
           </div>

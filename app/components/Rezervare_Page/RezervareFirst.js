@@ -31,8 +31,8 @@ const RezervareFirst = () => {
           restaurantul nostru confortabil și plin de atmosferă, rezervând o masă
           în avans. Indiferent dacă sărbătorești o ocazie specială sau pur și
           simplu vrei să te bucuri de o cină relaxantă cu prietenii, echipa
-          noastră este aici pentru a te ajuta. Completează formularul de
-          rezervare și vino să te răsfeți cu preparatele noastre delicioase!
+          noastră este aici pentru a te ajuta. Vino să te răsfeți cu preparatele
+          noastre delicioase!
         </p>
         <Link
           href="tel:0726731663"
