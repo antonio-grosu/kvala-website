@@ -69,7 +69,7 @@ const GalerieFirst = () => {
         </div>
         {/* randul 3 desktop */}
 
-        <div className="hidden md:flex justify-between">
+        <div className="hidden md:flex justify-between gap-8">
           <Link
             href="/galerie/6"
             className="w-44 h-44 p-1 slide-in bg-gray-300 rounded-md"
