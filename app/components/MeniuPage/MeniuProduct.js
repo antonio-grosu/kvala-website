@@ -3,7 +3,7 @@ const MeniuProduct = (props) => {
     <div className="flex slide-in justify-between md:justify-start bg-white  items-center gap-12">
       {props.image && (
         <div
-          className="p-1 w-32 h-32 bg-gray-300 rounded-md"
+          className="p-1 w-32 h-32 rounded-md"
           style={{
             backgroundImage: `url(/${props.image})`,
             backgroundSize: "cover",
