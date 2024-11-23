@@ -66,71 +66,85 @@ const Menu = () => {
               id: 1,
               name: "Humus 150g 72kCal",
               text: "Năut, lămâie, ulei de măsline, usturoi, sâmburi de pin, pită",
+              image: "PozeMeniu/Humus.jpg",
             },
             {
               id: 2,
               name: "Zacuscă pescărească 150g 165kCal",
               text: "Vinete, ardei, ceapă, ciuperci, hering marinat",
+              image: "PozeMeniu/ZacuscaPescareasca.jpg",
             },
             {
               id: 3,
               name: "Mix măsline 150g 120kCal",
               text: "Măsline mix, roșii uscate, pătrunjel, usturoi, ulei de măsline, condimente, pită",
+              image: "PozeMeniu/MixMasline.jpg",
             },
             {
               id: 4,
               name: "Tirokafteri 150g 280kCal",
               text: "Cremă de brânză picantă, de origine grecească",
+              image: "PozeMeniu/Tirokafteri.jpg",
             },
             {
               id: 5,
               name: "Icre Kavala 150g 265kCal",
               text: "Rețeta casei, ceapă, condimente, pită",
+              image: "PozeMeniu/IcreKvala.jpg",
             },
             {
               id: 6,
               name: "Melitzana 150g 60kCal",
               text: "Rețeta casei, ceapă, condimente, pită",
+              image: "PozeMeniu/Melitzana.jpg",
             },
             {
               id: 7,
               name: "Tzatziki 150g 60kCal",
               text: "Cremă de iaurt cu castraveți și usturoi, pită",
+              image: "PozeMeniu/Tzatziki.jpg",
             },
             {
               id: 8,
               name: "Halloumi grill 200g 370kCal",
               text: "Brânză halloumi la grătar, cu roșii și pită",
+              image: "PozeMeniu/HalloumiGrill.jpg",
             },
             {
               id: 9,
               name: "Feta saganaki 200g 375kCal",
               text: "Brânză feta cu legume, în folie, la grătar",
+              image: "PozeMeniu/FetaSaganaki.jpg",
             },
             {
               id: 10,
               name: "Bouiourdi 400g 410kCal",
               text: "Mix de brânzeturi grecești la cuptor, roșii, ardei, ceapă, ulei de măsline, pită",
+              image: "PozeMeniu/Bouiourdi.jpg",
             },
             {
               id: 11,
               name: "Sărmăluțe grecești 200g 180kCal",
               text: "Foi de viță, orez, mentă, tzatziki",
+              image: "PozeMeniu/SarmaluteGrecesti.jpg",
             },
             {
               id: 12,
               name: "Dovlecel pane 150g 164kCal",
               text: "Servit cu sos tzatziki",
+              image: "PozeMeniu/DovlecelPane.JPG",
             },
             {
               id: 13,
               name: "Ardei cherry cu feta 100g 155kCal",
               text: "Ardei cherry iuți, umpluți cu feta, ulei de măsline, condimente, pită",
+              image: "PozeMeniu/ArdeiCherryCuFeta.jpg",
             },
             {
               id: 14,
               name: "Ardei capia la cuptor 250g 210kCal",
               text: "Ardei capia, umplut cu feta, la cuptor, ulei de măsline, oțet, condimente, pită",
+              image: "PozeMeniu/ArdeiCapiaLaCuptor.JPG",
             },
           ]}
         />
@@ -142,9 +156,9 @@ const Menu = () => {
         <MeniuType
           type="Garnituri"
           products={[
-            { id: 1, name: "Cartofi Prajiti 150gr. 200kCal", text: "" },
-            { id: 2, name: "Orez 200g 130kCal", text: "" },
-            { id: 3, name: "Pita 70g ", text: "" },
+            { id: 1, name: "Cartofi Prajiti 150gr. 200kCal", text: "", image: "PozeMeniu/CartofiPrajiti.jpg" },
+            { id: 2, name: "Orez 200g 130kCal", text: "", iage: "PozeMeniu/Prez.jpg" },
+            { id: 3, name: "Pita 70g ", text: "", image: "PozeMeniu/Pita.jpg" },
           ]}
         />
       </div>
@@ -159,66 +173,79 @@ const Menu = () => {
               id: 1,
               name: "Platou Kavala 2/4 pers 840g 845kCal / 1700g 1710kCal",
               text: "Creveți pane, calamar pane, scoici pane, caracatiță la grătar, sos Kavala, mujdei, cartofi prăjiți, roșii cherry",
+              image: "PozeMeniu/PlatouKvala.jpg",
             },
             {
               id: 2,
               name: "Kalamari 400g 525kCal",
               text: "Calamar pane, cartofi prăjiți, sos Kavala (E415, E330, E260)",
+              image: "PozeMeniu/Kalamari.jpg",
             },
             {
               id: 3,
               name: "Kalamari gemisto 400g 450kCal",
               text: "Calamar la grătar, umplut cu feta și legume",
+              image: "PozeMeniu/KalamariGemisto.jpg",
             },
             {
               id: 4,
               name: "Creveți saganaki 350g 260kCal",
               text: "Creveți, sos de roșii, legume, feta, pită",
+              image: "PozeMeniu/CrevetiSaganaki.jpg",
             },
             {
               id: 5,
               name: "Paste cu creveți 300g 160kCal",
               text: "Creveți, paste, roșii cherry, ardei gras, unt, vin, condimente",
+              image: "PozeMeniu/PasteCuCreveti.jpg",
             },
             {
               id: 6,
               name: "Pește Kavala 600g 400kCal",
               text: "Pește proaspăt la grătar, sos de lămâie",
+              image: "PozeMeniu/PesteKvala.jpg",
             },
             {
               id: 7,
               name: "Caracatiță 150g 120kCal",
               text: "Caracatiță la grătar, rețeta casei, sos de lămâie",
+              image: "PozeMeniu/Caracatita.jpg",
             },
             {
               id: 8,
               name: "Tigaie de caracatiță 300g 135kCal",
               text: "Caracatiță, unt, vin, usturoi, roșii cherry, pită",
+              image: "PozeMeniu/TigaieDeCaracatita.jpg",
             },
             {
               id: 9,
               name: "Frigărui de creveți 300g 125kCal",
               text: "Creveți, rucola, roșii cherry, dressing de lămâie, pită",
+              image: "PozeMeniu/FrigaruiDeCreveti.jpg",
             },
             {
               id: 10,
               name: "Tigaie de creveți 400g 170kCal",
               text: "Creveți, unt, vin, usturoi, roșii cherry, pită",
+              image: "PozeMeniu/TigaieDeCreveti.jpg",
             },
             {
               id: 11,
               name: "Tigaie de scoici 400g 165kCal",
               text: "Carne de midii, unt, vin, usturoi, roșii cherry, pită",
+              image: "PozeMeniu/TigaieDeScoici.jpg",
             },
             {
               id: 12,
               name: "Scoici saganaki 350g 250kCal",
               text: "Carne de midii, sos de roșii, legume, feta, pită",
+              image: "PozeMeniu/ScoiciSaganaki.jpg",
             },
             {
               id: 13,
               name: "Creveți pane 350g 350kCal",
               text: "Creveți pane, cartofi prăjiți, sos Kavala (E415, E330, E260)",
+              image: "PozeMeniu/CrevetiPane.jpg",
             },
           ]}
         />
@@ -231,18 +258,20 @@ const Menu = () => {
         <MeniuType
           type="Tigaie Greceasca"
           products={[
-            { id: 1, name: "Pui 400g 510kCal", text: "" },
-            { id: 2, name: "Porc 400g 480kCal", text: "Carne de porc" },
-            { id: 3, name: "Vită 400g 450kCal", text: "Carne de vită" },
+            { id: 1, name: "Pui 400g 510kCal", text: "", image: "PozeMeniu/Pui.jpg" },
+            { id: 2, name: "Porc 400g 480kCal", text: "Carne de porc", image: "PozeMeniu/Porc.jpg" },
+            { id: 3, name: "Vită 400g 450kCal", text: "Carne de vită", image: "PozeMeniu/Vita.jpg" },
             {
               id: 4,
               name: "Gyros Pui",
               text: "Carne de pui, tzatziki, cartofi prăjiți, pită",
+              image: "PozeMeniu/GyrosPui.jpg",
             },
             {
               id: 5,
               name: "Gyros Porc",
               text: "Carne de porc, tzatziki, cartofi prăjiți, pită",
+              image: "PozeMeniu/GyrosPorc.jpg",
             },
           ]}
         />
@@ -259,36 +288,43 @@ const Menu = () => {
               id: 1,
               name: "Kleftico 400g 345kCal",
               text: "Berbecuț gătit încet la cuptor, cartofi prăjiți, pită",
+              image: "PozeMeniu/Kleftico.jpg",
             },
             {
               id: 2,
               name: "Loukanika 400g 410kCal",
               text: "Cârnați de casă din porc la grătar, tzatziki, cartofi prăjiți, pită",
+              image: "PozeMeniu/Loukanika.jpg",
             },
             {
               id: 3,
               name: "Crispy Koto 350g 510kCal",
               text: "Fâșii de pui crocante în panko, sos Kavala (E415, E330, E260)",
+              image: "PozeMeniu/CrispyKoto.jpg",
             },
             {
               id: 4,
               name: "Fileto 200g 240kCal",
               text: "Mușchi de vită la grătar, rucola",
+              image: "PozeMeniu/Fileto.jpg",
             },
             {
               id: 5,
               name: "Șnițel de porc 450g 510kCal",
               text: "Mușchiuleț de porc, panko, ou, cartofi prăjiți, tzatziki",
+              image: "PozeMeniu/SnitelDePorc.jpg",
             },
             {
               id: 6,
               name: "Pastitio 420g 265kCal",
               text: "Paste penne, feta, cașcaval, carne de vită, beșamel, condimente",
+              image: "PozeMeniu/Pastitio.jpg",
             },
             {
               id: 7,
               name: "Musaca 420g 265kCal",
               text: "Cartofi, vinete, feta, cașcaval, carne de vită, beșamel, condimente",
+              image: "PozeMeniu/Musaca.jpg",
             },
           ]}
         />
@@ -305,21 +341,25 @@ const Menu = () => {
               id: 1,
               name: "Horiatiki 300g 170kCal",
               text: "Salată grecească tradițională, cu roșii, castravete, ardei, ceapă, măsline, feta",
+              image: "PozeMeniu/Horiatiki.jpg",
             },
             {
               id: 2,
               name: "Agourotomata 300g 80kCal",
               text: "Salată grecească cu roșii, castraveți, ceapă, ardei, măsline",
+              image: "PozeMeniu/Agourotomata.jpg",
             },
             {
               id: 3,
               name: "Koto 400g 210kCal",
               text: "Salată grecească cu roșii, castraveți, ceapă, ardei, măsline, piept de pui, pită",
+              image: "PozeMeniu/Koto.jpg",
             },
             {
               id: 4,
               name: "Salată verde 190g 45kCal",
               text: "Mix salată verde, roșii cherry, măsline, dressing de lămâie",
+              image: "PozeMeniu/SalataVerde.jpg",
             },
           ]}
         />
@@ -336,26 +376,31 @@ const Menu = () => {
               id: 1,
               name: "Kataif 200g 410kCal",
               text: "Aluat în fire însiropat, nucă, frișcă vegetală cu îndulcitor",
+              image: "PozeMeniu/Kataif.jpg",
             },
             {
               id: 2,
               name: "Galaktobureko 200g 340kCal",
               text: "Foietaj, cremă de lapte, griș, vanilie, frișcă vegetală cu îndulcitor",
+              image: "PozeMeniu/Galatobureko.jpg",
             },
             {
               id: 3,
               name: "Profiterol 100g 348kCal",
               text: "2 choux cu cremă de vanilie și glazură de ciocolată",
+              image: "PozeMeniu/Profiterol.jpg",
             },
             {
               id: 4,
               name: "Tort de fistic 100g 365kCal",
               text: "Cu sirop cu aromă de alune, frișcă vegetală cu îndulcitor",
+              image: "PozeMeniu/TortDeFistic.jpg",
             },
             {
               id: 5,
               name: "Portokalopita 200g 340kCal",
               text: "Prăjitură cu aluat, ouă, iaurt, zahăr, sirop de portocale",
+              image: "PozeMeniu/Portokalopita.jpg",
             },
           ]}
         />
